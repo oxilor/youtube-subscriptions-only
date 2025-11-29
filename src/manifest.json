@@ -14,5 +14,15 @@
       "matches": ["https://www.youtube.com/*"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@youtube-subscriptions-only",
+      "strict_min_version": "145.0",
+      "data_collection_permissions": {
+        "required": ["websiteContent"],
+        "optional": []
+      }
+    }
+  }
 }
